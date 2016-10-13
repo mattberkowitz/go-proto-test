@@ -1,0 +1,11 @@
+syntax = "proto3";
+package schema.sub;
+
+import "TypeTwo.proto";
+
+option go_package = "github.com/mattberkowitz/go-proto-test/schema/sub";
+
+message TypeOne {
+	string test2 = 1;
+	schema.TypeTwo type2 = 2;
+}

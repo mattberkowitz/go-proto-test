@@ -1,0 +1,8 @@
+syntax = "proto3";
+package schema;
+
+option go_package = "github.com/mattberkowitz/go-proto-test/schema";
+
+message TypeTwo {
+	string foo = 1;
+}
